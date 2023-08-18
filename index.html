@@ -42,18 +42,20 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <script src="script.js"></script> 
+
     <div>
       <link href="./index.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <div class="home-container01">
-          <div class="home-container02">
-            <span class="home-text">Главная</span>
-            <a href="./skills" class="home-text01">Навыки</a>
-            <a href="./contact" class="home-text02">Связаться</a>
+      <div class="vertical-container">
+        <div class="header-container">
+          <div class="header">
+            <span class="header-selected-text">Главная</span>
+            <a href="./skills" class="header-unselected-text">Навыки</a>
+            <a href="./contact" class="header-unselected-text">Связаться</a>
           </div>
         </div>
-        <div class="home-container03">
+        <div class="central-line">
           <div class="home-container04">
             <img
               alt="image"
@@ -78,6 +80,26 @@
             <div class="home-container09">
               <span class="home-text09">Проекты</span>
               <a
+              href="https://kvch-dev.itch.io/typocalypse"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="home-link"
+            >
+              <div class="home-container12">
+                <img
+                  alt="image"
+                  src="public/typocalypse.png"
+                  class="home-image2"
+                />
+                <div class="home-container13">
+                  <span class="home-text14">Typocalypse</span>
+                  <span class="home-text15">
+                    Пишите слова, чтобы убивать зомби
+                  </span>
+                </div>
+              </div>
+            </a>
+              <a
                 href="https://play.google.com/store/apps/details?id=com.KVCH.AvoidIt"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -98,11 +120,16 @@
                   </div>
                 </div>
               </a>
+
+              <div class="panel">
+                <p>Lorem ipsum...</p>
+              </div>              
+              
               <a
                 href="https://gorbachevvv.github.io/coalition-of-perune/"
                 target="_blank"
                 rel="noreferrer noopener"
-                class="home-link1"
+                class="home-link"
               >
                 <div class="home-container12">
                   <img
@@ -121,7 +148,7 @@
             </div>
             <div class="home-container14">
               <span class="home-text16">Связь</span>
-              <a href="contact.html" class="home-navlink">
+              <a href="./contact" class="home-navlink">
                 <div class="home-container15">
                   <img
                     alt="image"
